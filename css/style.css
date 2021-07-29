@@ -45,6 +45,19 @@ body{
     width: 100%;
     border-radius: 13px;
 }
+.top-title{
+    color: #0072ce;
+    text-transform: uppercase;
+}
+.undertext{
+    color: #757575;
+}
+.my_bg-blue{
+    background-color: #2d64e6;
+} 
+.ps5-headline{
+    margin-bottom: 200px;
+}
 #headline > img{
     width: 80px;
 }
