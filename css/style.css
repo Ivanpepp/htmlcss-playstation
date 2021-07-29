@@ -8,6 +8,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif
 }
+ul{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+}
 .my_bg-black{
     background-color: black;
 }
@@ -91,6 +97,9 @@ body{
 .my_bg-light-grey{
     background-color: #d9dadc;
 }
+.foot-logo{
+    width: 100px;
+}
 #headline > img{
     width: 80px;
 }
@@ -135,6 +144,9 @@ body{
 }
 #social img{
     width: 100%;
+}
+#foot{
+    background-color: #00439c;
 }
 @media only screen and (max-width:767px){
     .my_nomargin-important{
