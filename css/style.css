@@ -82,6 +82,15 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.logo-inside-banner{
+    width: 60%;
+}
+.my_text-blue{
+    color: #2d64e6;
+}
+.my_bg-light-grey{
+    background-color: #d9dadc;
+}
 #headline > img{
     width: 80px;
 }
@@ -89,9 +98,7 @@ body{
     background-image: 
     url(../img/jumbo-bg.png);
 }
-#jumbo img{
-   width: 60%;
-}
+
 #ps5 img{
     width: 100%;
  }
@@ -99,9 +106,7 @@ body{
     background-image: 
     url(../img/it-takes-two-hero-banner-desktop.jpg);
  }
- #secondary-jumbo img{
-     width: 60%;
- }
+
  #secondary-jumbo .jumbo-content{
     padding-top: 50px;
 }
@@ -113,9 +118,23 @@ body{
     width: 100%;
     border-radius: 20px;
 }
+#ps4{
+    padding-top: 60px;
+}
+#ps4 img{
+    width: 100%;
+}
+#ps-plus{
+    background-color: #bebcbb;
+}
+
 @media only screen and (max-width:767px){
     .my_nomargin-important{
         margin-left: 0 !important;
         margin-right:0 !important;
+    }
+    .ps-plus-item{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 }
