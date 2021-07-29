@@ -26,6 +26,22 @@ body{
     vertical-align: middle;
     cursor: pointer;
 }
+.my_bg-orange{
+    background-color: #cd3d0f;
+}
+.jumbo-content{
+    padding-top: 250px;
+}
 #headline > img{
     width: 80px;
+}
+#jumbo{
+    background-image: 
+    url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#jumbo img{
+   width: 60%;
 }
