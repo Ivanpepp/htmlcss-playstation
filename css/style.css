@@ -127,7 +127,9 @@ body{
 #ps-plus{
     background-color: #bebcbb;
 }
-
+#discount img{
+    width: 100%;
+}
 @media only screen and (max-width:767px){
     .my_nomargin-important{
         margin-left: 0 !important;
