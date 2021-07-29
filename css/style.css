@@ -56,6 +56,28 @@ body{
     background-color: #2d64e6;
 } 
 
+.ps5-item{
+    opacity: .7;
+    height: 100%;
+    border-bottom: 2px solid transparent;
+    transition:all 0.1s ease-in;
+}
+.my_border-blu{
+    opacity: 1;
+    border-bottom: 2px solid #2d64e6;
+}
+.ps5-item:hover{
+    opacity: 1;
+    border-bottom: 2px solid #2d64e6;
+}
+.ps5-item p{
+    margin-bottom: 0;
+}
+.ps5-item img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
 #headline > img{
     width: 80px;
 }
@@ -72,4 +94,9 @@ body{
 #ps5 img{
     width: 100%;
  }
- 
+@media only screen and (max-width:767px){
+    .my_nomargin-important{
+        margin-left: 0 !important;
+        margin-right:0 !important;
+    }
+}
