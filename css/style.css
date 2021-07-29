@@ -133,6 +133,9 @@ body{
 #ps-now{
     background-color: #161c3b;
 }
+#social img{
+    width: 100%;
+}
 @media only screen and (max-width:767px){
     .my_nomargin-important{
         margin-left: 0 !important;
