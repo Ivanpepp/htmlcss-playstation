@@ -148,9 +148,3 @@ ul li a{
 #foot{
     background-color: #00439c;
 }
-@media only screen and (max-width:767px){
-    .ps-plus-item{
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-    }
-}
