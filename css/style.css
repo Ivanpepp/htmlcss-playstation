@@ -149,10 +149,6 @@ ul li a{
     background-color: #00439c;
 }
 @media only screen and (max-width:767px){
-    .my_nomargin-important{
-        margin-left: 0 !important;
-        margin-right:0 !important;
-    }
     .ps-plus-item{
         padding-top: 3rem;
         padding-bottom: 3rem;
