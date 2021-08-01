@@ -27,7 +27,7 @@ body{
 .my_font-size{
     font-size: .8rem;
 }
-.relativa{
+.relative{
     position: relative;
 }
 .my_center-logo{
@@ -37,6 +37,28 @@ body{
     left:50%;
     transform: translate(-50%, -50%);
 }
+.undertext{
+    color: grey;
+    font-size: 1.5rem;
+}
+.videowrapper{
+    width: 100%;
+}
+.video-text{
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    
+}
+.video-text p{
+  width: 50%;
+    
+}
+
+
+
+
 #headline > img{
     width: 80px;
 }
@@ -50,5 +72,13 @@ body{
     .my_center-logo{
         display: block;
     }
+
+} 
+@media only screen and (max-width:1200px)
+{
+    .main-video{
+        min-width: 1200px;
+    }
+
 } 
     
